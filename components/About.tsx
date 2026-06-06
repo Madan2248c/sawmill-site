@@ -207,6 +207,7 @@ export default function About() {
               alt="Sri Vijaya Sankara Saw Mill interior with timber cutting machinery, Parvathipuram Andhra Pradesh"
               width={700}
               height={440}
+              sizes="(max-width: 768px) 100vw, 600px"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
           </div>
@@ -225,6 +226,7 @@ export default function About() {
               alt="Timber worker handling wood planks at Sri Vijaya Sankara Saw Mill, Parvathipuram"
               width={340}
               height={450}
+              sizes="(max-width: 768px) 50vw, 280px"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
           </div>
@@ -241,6 +243,7 @@ export default function About() {
               alt="Sri Vijaya Sankara Saw Mill & Co storefront on Durga Temple Street, Parvathipuram"
               width={340}
               height={450}
+              sizes="(max-width: 768px) 50vw, 280px"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
           </div>
