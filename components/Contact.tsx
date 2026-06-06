@@ -12,14 +12,14 @@ const contacts = [
     role: 'Manager',
     phone: '+919440106929',
     display: '94401 06929',
-    whatsapp: 'https://wa.me/919440106929',
+    whatsapp: 'https://wa.me/919440106929?text=Hi%2C+I+saw+your+website.+Can+I+get+more+information%3F',
   },
   {
     name: 'Boddu Tirupathi Rao',
     role: 'Proprietor',
     phone: '+919490462059',
     display: '94904 62059',
-    whatsapp: 'https://wa.me/919490462059',
+    whatsapp: 'https://wa.me/919490462059?text=Hi%2C+I+saw+your+website.+Can+I+get+more+information%3F',
   },
 ];
 

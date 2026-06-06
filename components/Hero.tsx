@@ -176,7 +176,7 @@ export default function Hero() {
               <PhoneIcon /> Call Us
             </a>
             <a
-              href="https://wa.me/919440106929"
+              href="https://wa.me/919440106929?text=Hi%2C+I+saw+your+website.+Can+I+get+more+information%3F"
               target="_blank"
               rel="noopener noreferrer"
               style={{
