@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://srivijayasankarasawmill.com/sitemap.xml',
+    sitemap: 'https://srivijayasankarasawmill.vercel.app/sitemap.xml',
   };
 }
