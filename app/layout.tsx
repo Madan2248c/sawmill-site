@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: 'Sri Vijaya Sankara Saw Mill & Co | Timber Suppliers in Parvathipuram, Andhra Pradesh',
-    template: '%s | Sri Vijaya Sankara Saw Mill & Co',
+    default: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
+    template: '%s | Sri Vijaya Sankara Saw Mill',
   },
   description:
-    'Sri Vijaya Sankara Saw Mill & Co — trusted timber & wood suppliers in Parvathipuram, Andhra Pradesh. Quality timber planks, custom cutting, furniture wood & wholesale supply to Vizianagaram, Visakhapatnam & across Andhra Pradesh. Call 94401 06929.',
+    'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
 
   keywords: [
     'saw mill Parvathipuram',
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: SITE_URL,
     siteName: 'Sri Vijaya Sankara Saw Mill & Co',
-    title: 'Sri Vijaya Sankara Saw Mill & Co | Parvathipuram, Andhra Pradesh',
+    title: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
     description:
-      'Quality timber planks, custom cutting & wholesale wood supply in Parvathipuram, Andhra Pradesh. Serving Vizianagaram, Visakhapatnam & across AP.',
+      'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
     images: [
       {
         url: '/hero_image.png',
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Sri Vijaya Sankara Saw Mill & Co | Parvathipuram',
+    title: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
     description:
-      'Quality timber planks, custom cutting & wholesale wood supply in Parvathipuram, Andhra Pradesh.',
+      'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
     images: ['/hero_image.png'],
   },
 
