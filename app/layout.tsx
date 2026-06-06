@@ -59,7 +59,7 @@ export const metadata: Metadata = {
       'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
     images: [
       {
-        url: '/hero_image.png',
+        url: '/hero_image.jpg',
         width: 1200,
         height: 630,
         alt: 'Sri Vijaya Sankara Saw Mill & Co — Timber Suppliers in Parvathipuram',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
     description:
       'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
-    images: ['/hero_image.png'],
+    images: ['/hero_image.jpg'],
   },
 
   robots: {
@@ -108,7 +108,7 @@ const jsonLd = {
   description:
     'Trusted timber and wood suppliers in Parvathipuram, Andhra Pradesh. We supply quality timber planks, custom-cut wood, furniture-grade seasoned wood, and wholesale timber to builders, contractors, and furniture makers across Vizianagaram, Visakhapatnam, and Andhra Pradesh.',
   image: [
-    `${SITE_URL}/hero_image.png`,
+    `${SITE_URL}/hero_image.jpg`,
     `${SITE_URL}/images/IMG_20260606_170818.jpg`,
     `${SITE_URL}/images/IMG_20260606_170814.jpg`,
   ],

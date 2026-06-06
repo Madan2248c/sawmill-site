@@ -54,7 +54,7 @@ export default function Hero() {
     >
       {/* Background image */}
       <Image
-        src="/hero_image.png"
+        src="/hero_image.jpg"
         alt="Sri Vijaya Sankara Saw Mill — quality timber from the forest"
         fill
         priority
