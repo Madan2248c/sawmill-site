@@ -17,9 +17,11 @@ const lora = Lora({
 });
 
 const SITE_URL = 'https://srivijayasankarasawmill.vercel.app';
+const SITE_NAME = 'Sri Vijaya Sankara Saw Mill & Co';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: SITE_NAME,
 
   title: {
     default: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
@@ -53,7 +55,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: SITE_URL,
-    siteName: 'Sri Vijaya Sankara Saw Mill & Co',
+    siteName: SITE_NAME,
     title: 'Sri Vijaya Sankara Saw Mill | Timber Suppliers, Parvathipuram',
     description:
       'Timber & wood suppliers in Parvathipuram, AP — planks, custom cutting & wholesale supply. Serving Vizianagaram, Visakhapatnam & AP. Call +91 94401 06929.',
@@ -92,8 +94,9 @@ const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': `${SITE_URL}/#website`,
-  name: 'Sri Vijaya Sankara Saw Mill & Co',
-  url: SITE_URL,
+  name: SITE_NAME,
+  alternateName: 'Vijaya Sankara Saw Mill',
+  url: `${SITE_URL}/`,
   publisher: {
     '@id': `${SITE_URL}/#business`,
   },
@@ -103,7 +106,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
   '@id': `${SITE_URL}/#business`,
-  name: 'Sri Vijaya Sankara Saw Mill & Co',
+  name: SITE_NAME,
   url: SITE_URL,
   description:
     'Trusted timber and wood suppliers in Parvathipuram, Andhra Pradesh. We supply quality timber planks, custom-cut wood, furniture-grade seasoned wood, and wholesale timber to builders, contractors, and furniture makers across Vizianagaram, Visakhapatnam, and Andhra Pradesh.',
